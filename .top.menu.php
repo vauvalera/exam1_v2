@@ -1,11 +1,17 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 <?
 $aMenuLinks = Array(
+	Array(
+		"...", 
+		"/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
 	Array(
 		"Компания", 
 		"company/", 
 		Array(), 
-		Array(), 
+		Array("TEXT"=>"Это поле дя компании"), 
 		"" 
 	),
 	Array(
@@ -30,8 +36,22 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Контакты", 
-		"contacts/", 
+		"Партнерам", 
+		"partners/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы", 
+		"/rew/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Поиск", 
+		"search/", 
 		Array(), 
 		Array(), 
 		"" 
